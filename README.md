@@ -1,6 +1,9 @@
 # cpsc336-fa23-gonephishing
-Project: option 2
-Group Members and Jobs: Corinne Kulik (project manager), Maddie Bounds (developing the application), Zachary Langford (development environment), Matthew Wakhweya (production environments)
+# Project:
+option 2
+
+# Group Members and Jobs:
+Corinne Kulik (project manager), Maddie Bounds (developing the application), Zachary Langford (development environment), Matthew Wakhweya (production environments)
 
 # Initial Project Information 
 Development environment:
