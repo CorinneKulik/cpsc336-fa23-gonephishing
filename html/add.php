@@ -22,6 +22,8 @@
 	<input type="submit" value="Add Product">
 	<!--<button onclick="?" type="button" class="additem">Add Item</button>-->
 </form>
+</body>
+</html>
 
 <?php
 	$conn = include_once "connect.php";
@@ -41,5 +43,3 @@
 	$conn->close();
 ?>
 
-</body>
-</html>
