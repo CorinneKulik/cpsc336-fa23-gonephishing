@@ -14,7 +14,8 @@
 	
 	<button onclick="?" type="button" class="addproduct">Remove Product</button>
 </form>
-
+</body>
+</html>
 <?php
 	$conn = include_once "connect.php";
 	$sql = "SELECT * FROM product WHERE prodid = $_GET['prodid']";
@@ -28,5 +29,4 @@
 	}
 	$conn->close();
 ?>
-</body>
-</html>
+

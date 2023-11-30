@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,6 +27,7 @@
 </html>
 
 <?php
+
 	$conn = include_once "connect.php";
 	
 	$prodid = $_POST['prodid'];
