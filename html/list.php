@@ -3,14 +3,16 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="phishy.css">
 	<title>List Products</title>
 </head>
-<body>
 <nav>
         <a href="add.php">Add Product</a>
         <a href="remove.php">Remove Product</a>
         <a href="list.php">List Products</a>
 </nav>
+<body>
+<div class="fish-background">
 <h1>List Products</h1>
 
 <?php

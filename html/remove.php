@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="phishy.css">
 	<title>Remove Product</title>
 </head>
 <nav>
@@ -12,6 +13,8 @@
 </nav>
 
 <body>
+<div class="fish-background">
+<h1> Remove Product </h1>
 <!--Remove item form-->
 <form method="post" action="remove.php">
 	<label for="prodid"><b>Product ID</b></label>

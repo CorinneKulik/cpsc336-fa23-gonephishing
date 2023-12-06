@@ -4,6 +4,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="phishy.css">
 	<title>Add Product Form</title>
 </head>
 <nav>
@@ -13,6 +14,7 @@
 </nav>
 
 <body>
+<div class="fish-background">
 <h1>Add Product</h1>
 <!--add item form-->
 <form method="post" action="add.php">
@@ -28,6 +30,7 @@
 	<input type="submit" name="submit"  value="Add Product">
 	<!--<button onclick="?" type="button" class="additem">Add Item</button>-->
 </form>
+</div>
 </body>
 </html>
 

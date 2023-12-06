@@ -1,0 +1,95 @@
+body {
+    background-color: #87CEEB;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #003366; /* Dark Blue navigation bar background */
+    padding: 10px;
+}
+
+nav a {
+    color: #FFF; /* White navigation bar text */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.fish-background {
+    background-image: url('phishy.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+}
+
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #003366; 
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #003366;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #003366;
+    color: #FFF; 
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #001F33;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #003366;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: #003366;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
