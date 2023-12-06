@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<title>List Products</title>
 </head>
-
-
+<body>
+<h1>List Products</h1>
 
 <?php
 	$conn = include_once "connect.php";

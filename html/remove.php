@@ -14,18 +14,21 @@
 	
 	<button onclick="?" type="button" class="addproduct">Remove Product</button>
 </form>
-</body>
-</html>
+
 <?php
 	$conn = include_once "connect.php";
-	$sql = "SELECT * FROM product WHERE prodid = $_GET['prodid']";
-	$result = $conn->query($sql);
+	
+	$product = $_POST['prodid'];
+	$sql = "DELETE FROM products WHERE prodid = $product";
 	
 	if ($conn->query($sql) == TRUE) {
-		"DELETE FROM product WHERE prodid = $_GET['prodid']";
+		echo "Product removed successfully.";
 	}
 	else {
 		echo "Error removing product. Please try again.";
 	}
 	$conn->close();
 ?>
+</body>
+</html>
+
