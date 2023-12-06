@@ -30,8 +30,8 @@
 			  </tr>";
 		while($row = $result->fetch_assoc()) {
 			echo"<tr>
-				 <td>".$row["productid"]."</td>
-				 <td>".$row["prodname"]."<.td>
+				 <td>".$row["prodid"]."</td>
+				 <td>".$row["prodname"]."</td>
 				 <td>".$row["prodquantity"]."</td>
 				 </tr>";
 		}

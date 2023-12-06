@@ -20,14 +20,15 @@
 	<label for="prodquantity"><b>Product Quantity</b></label>
 	<input type="text" placeholder="Enter Product Quantity" name="prodquantity" required>
 	<br>
-	<input type="submit" value="Add Product">
+	<input type="submit" name="submit"  value="Add Product">
 	<!--<button onclick="?" type="button" class="additem">Add Item</button>-->
 </form>
 </body>
 </html>
 
 <?php
-
+if (isset($_POST['submit'])) {
+	echo "I form Submitted";
 	$conn = include_once "connect.php";
 	
 	$prodid = $_POST['prodid'];
@@ -43,5 +44,7 @@
 		echo "Error adding product. Please try again.";
 	}
 	$conn->close();
+}
+echo "No form submitted";
 ?>
 
