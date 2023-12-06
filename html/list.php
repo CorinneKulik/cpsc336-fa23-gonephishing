@@ -6,6 +6,11 @@
 	<title>List Products</title>
 </head>
 <body>
+<nav>
+        <a href="add.php">Add Product</a>
+        <a href="remove.php">Remove Product</a>
+        <a href="list.php">List Products</a>
+</nav>
 <h1>List Products</h1>
 
 <?php

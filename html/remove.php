@@ -5,6 +5,11 @@
 	<meta charset="utf-8">
 	<title>Remove Product</title>
 </head>
+<nav>
+        <a href="add.php">Add Product</a>
+        <a href="remove.php">Remove Product</a>
+        <a href="list.php">List Products</a>
+</nav>
 
 <body>
 <!--Remove item form-->
@@ -22,8 +27,6 @@ if (isset($_POST['submit'])) {
 	$product = $_POST['prodid'];
 	$sql = "DELETE FROM product WHERE prodid = $product";
 
-	echo "form submitted";
-	
 	if ($conn->query($sql) == TRUE) {
 		echo "Product removed successfully.";
 	}

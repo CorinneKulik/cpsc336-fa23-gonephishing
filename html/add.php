@@ -6,6 +6,11 @@
 	<meta charset="utf-8">
 	<title>Add Product Form</title>
 </head>
+<nav>
+	<a href="add.php">Add Product</a>
+	<a href="remove.php">Remove Product</a>
+	<a href="list.php">List Products</a>
+</nav>
 
 <body>
 <h1>Add Product</h1>
@@ -28,7 +33,6 @@
 
 <?php
 if (isset($_POST['submit'])) {
-	echo "I form Submitted";
 	$conn = include_once "connect.php";
 	
 	$prodid = $_POST['prodid'];
@@ -45,6 +49,5 @@ if (isset($_POST['submit'])) {
 	}
 	$conn->close();
 }
-echo "No form submitted";
 ?>
 
