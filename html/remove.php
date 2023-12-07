@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
 	$sql = "DELETE FROM product WHERE prodid = $product";
 
 	if ($conn->query($sql) == TRUE) {
-		echo "Product removed successfully.";
+		echo '<p style="font-size: 50px; color: #FFFFFF; background-color: #003366;">Product removed successfully.</p>';
 	}
 	else {
 		echo "Error removing product. Please try again.";

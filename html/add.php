@@ -31,8 +31,6 @@
 	<!--<button onclick="?" type="button" class="additem">Add Item</button>-->
 </form>
 </div>
-</body>
-</html>
 
 <?php
 if (isset($_POST['submit'])) {
@@ -45,12 +43,13 @@ if (isset($_POST['submit'])) {
 	$sql = "INSERT INTO product VALUES('$prodid', '$prodname', '$prodquantity')";
 	
 	if ($conn->query($sql) == TRUE) {
-		echo "Product successfully added.";
+		echo '<p style="font-size: 50px; color:#FFFFFF; background-color: #003366;">Product successfully added.</p>';
 	}
 	else {
-		echo "Error adding product. Please try again.";
+		echo '<p style="font-size:30px; color:#FFFFFF; background-color:#003366;">Error adding product. Please try again.</p>';
 	}
 	$conn->close();
 }
 ?>
-
+</body>
+</html>
